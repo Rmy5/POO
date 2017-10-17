@@ -1,0 +1,273 @@
+@font-face
+{
+	font-family: 'HelveticaNeue.ttf';
+	src: url('polices/HelveticaNeue.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*XDDEBUG*/
+				
+			.xdebug-var-dump {
+				font-size: 17px;
+				/*color: rgba(255,255,255,.8);*/
+			}
+		 	.xdebug-error {
+				width: 60%;
+				margin: 10px;
+				border-collapse: collapse;
+				border-right: 1px #5b5440 solid;
+				border-left: 1px #5b5440 solid;
+			}
+			.xdebug-error th,.xdebug-error td {
+				padding: 4px 6px 3px 5px;
+				border-top: 1px #5b5440 solid;
+				border-bottom: 1px #5b5440 solid;
+				border-left: none;
+				border-right: none;
+			}	 
+			.xdebug-error th:first-child {
+				font-size: 16px;
+				padding-top: 0;
+			} 
+			.xdebug-error th {
+				background-color: #E4DBBF;
+				color: #383127;
+			} 
+			.xdebug-error td {
+				background-color: #fff;
+			}
+			.xdebug-error span {
+				background-color: inherit !important;
+				color: #DC5B21 !important;
+			}
+			
+			font[color="#00bb00"] ,
+			font[color="#4e9a06"] {
+			 color: #618e34 !important;
+			}
+
+			font[color="#ff0000"] ,
+			font[color="#cc0000"] {
+			 color: #F46F03 !important;
+			}
+
+			font[color="#3465a4"] {
+			 color: #0075c2 !important;
+			}
+
+body
+{
+	text-align: center;
+	background-color: rgba(69, 71, 69, 1);
+	margin: 0;
+}
+
+#wrap
+{
+	width: 400px;
+	margin: auto;
+}
+
+.connexion
+{
+	width: 400px;
+	margin: auto;
+	background-color: rgba(0, 0, 0, .3);
+
+	position: relative;
+    margin-bottom: 20%;
+    margin-top: 230px;
+}
+
+.connexion h1
+{
+	background-color: rgba(0, 0, 0, .3);
+	color: white;
+	font-family: 'HelveticaNeue.ttf';
+	margin-top: 0;
+	font-size: 1.2em;
+	height: 30px;
+	padding-top: 8px;
+	padding-bottom: 2px;
+}
+
+#login
+{
+	width: 88.2%;
+	height: 38px;
+	border-radius: 2px;
+	margin-bottom: 15px;
+	background-color: rgba(2, 205, 98, 1);
+	color: white;
+	border: none;
+	box-shadow: 0px 3px 0px #00441C;
+	font-family: 'HelveticaNeue.ttf';
+	text-transform: uppercase;
+	font-size: 1.1em;
+	cursor: pointer;
+}
+
+#login:active
+{
+	outline:none;
+  	background-color: #069245;
+ 	box-shadow: 0px 2px 0px #00441C;
+ 	transform: translateY(1px);
+}
+
+#pseudo, #mot_de_passe
+{
+	background-color: rgba(0, 0, 0, .6);
+	color: white;
+	border: none;
+	border-radius: 2px;
+	height: 40px;
+	margin-bottom: 15px;
+	width: 78.2%;
+}
+
+#pseudo
+{
+	background-image: url('images/user.png');
+	background-repeat: no-repeat;
+	background-position: 12px 12px;
+	background-size: 15px 15px;
+	margin-top: 10px;
+
+}
+
+#mail
+{
+	background-image: url('images/mail.png');
+	background-repeat: no-repeat;
+	background-position: 12px 12px;
+	background-size: 15px 15px;
+	background-color: rgba(0, 0, 0, .6);
+	color: white;
+	border: none;
+	border-radius: 2px;
+	height: 40px;
+	margin-bottom: 15px;
+	width: 78.2%;
+
+}
+
+#mot_de_passe
+{
+	background-image: url('images/cadenas.png');
+	background-repeat: no-repeat;
+	background-position: 12px 12px;
+	background-size: 15px 15px;
+}
+
+#auto, #besoin
+{
+	color: rgba(255, 255, 255, .6);
+	font-family: arial;
+	font-weight: normal;
+	font-size: .8em;
+}
+
+input[type=text], input[type=password] 
+{
+      padding-left: 40px;
+      font-size: 14px;
+}
+
+
+
+
+
+#bandeau_bas
+{
+	position: relative;
+	background-color: rgba(0, 0, 0, .3);
+	color: white;
+	height: 40px;
+	padding-bottom: 5px;
+	margin-top: 10px;
+
+}
+
+
+
+ 
+#connecter
+{
+	position: relative;
+	text-decoration: none;
+	font-size: .8em;
+	font-family: arial;
+	color: white;
+	left: 124px;
+	top: 12px;
+	background-color: #007A33;
+	padding: 9px 13px 8px 13px;
+	border-radius: 2px;
+	box-shadow: 0px 2px 0px #00451B;
+	outline: none;
+}
+
+#connecter:active 
+{
+  	background-color: rgba(0, 100, 36, 1);
+  	box-shadow: 0px 1px 0px #00441C;
+  	top: 14px;
+  	outline: none;
+}
+
+#valide
+{
+	font-family: arial;
+	font-size: .85em;
+	color: rgba(2, 205, 98, 1);
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding-bottom: 30px;
+}
+
+#vers_index
+{
+	position: relative;
+	text-decoration: none;
+	border-radius: 2px;
+	background-color: rgba(2, 205, 98, 1);
+	color: white;
+	box-shadow: 0px 3px 0px #00441C;
+	font-family: 'HelveticaNeue.ttf';
+	text-transform: uppercase;
+	font-size: 1.1em;
+	padding-bottom: 7px;
+	padding-left: 110px;
+	padding-right: 110px;
+	padding-top: 7px;
+	bottom: 25px;
+	outline: none;
+}
+
+#vers_index:active
+{
+  	background-color: #069245;
+ 	box-shadow: 0px 2px 0px #00441C;
+ 	bottom: 24px;
+ 	outline: none;
+}
+
+input::placeholder{
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

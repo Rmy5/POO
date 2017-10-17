@@ -1,0 +1,24 @@
+
+table{
+	text-align: center;
+	margin: 0px auto 0;
+	border-collapse: collapse;
+}
+td{
+	text-transform: uppercase;
+	width: 30px;
+	height: 30px;
+	border: 1px solid black;
+}
+a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	background-color: cadetblue; 
+	text-align: center;
+}
+
+
